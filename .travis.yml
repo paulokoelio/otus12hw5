@@ -1,0 +1,29 @@
+os: linux
+dist: bionic
+addons:
+  apt:
+    packages:
+    - cmake
+    - doxygen
+    - graphviz
+language: cpp
+before_script:
+- sudo apt-get update -qq
+- sudo apt install gcc-8 g++-8
+script:
+- doxygen Doxyfile
+- cmake -D CMAKE_C_COMPILER=gcc-8 -D CMAKE_CXX_COMPILER=g++-8 -D CMAKE_C_FLAGS="-lstdc++fs" .
+- cmake --build .
+- cmake --build . --target package
+deploy:
+  - provider: script
+    skip_cleanup: true
+    script: 
+    - curl -T gveditor-1.0.$TRAVIS_BUILD_NUMBER-Linux.deb -upaulokoelio:$BINTRAY_API_KEY "https://api.bintray.com/content/paulokoelio/otus12hw5/gveditor/1.0.$TRAVIS_BUILD_NUMBER/gveditor-1.0.$TRAVIS_BUILD_NUMBER-Linux.deb;deb_distribution=bionic;deb_component=main;deb_architecture=amd64;publish=1"
+  - provider: pages
+    skip_cleanup: true
+    github_token: ${GITHUB_TOKEN}  # Set in the settings page of your repository, as a secure variable
+    keep_history: false
+    on:
+      branch: master
+    local_dir: ./doc/html
