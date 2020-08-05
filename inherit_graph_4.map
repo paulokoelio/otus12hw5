@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classgvedt_1_1iobj.html" title="gvedt::iobj" alt="" coords="5,81,96,108"/>
+<area shape="rect" id="node2" href="$classgvedt_1_1circle.html" title="gvedt::circle" alt="" coords="152,5,255,32"/>
+<area shape="rect" id="node3" href="$classgvedt_1_1point.html" title="gvedt::point" alt="" coords="153,56,253,83"/>
+<area shape="rect" id="node4" href="$classgvedt_1_1polyline.html" title="gvedt::polyline" alt="" coords="144,107,263,133"/>
+<area shape="rect" id="node5" href="$classgvedt_1_1vector.html" title="gvedt::vector" alt="" coords="149,157,257,184"/>
+</map>

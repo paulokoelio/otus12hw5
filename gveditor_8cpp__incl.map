@@ -1,0 +1,9 @@
+<map id="/home/travis/build/paulokoelio/otus12hw5/src/gveditor.cpp" name="/home/travis/build/paulokoelio/otus12hw5/src/gveditor.cpp">
+<area shape="rect" id="node7" href="$gveditor_8h.html" title="Заголовочный файл общий для приложения gveditor. " alt="" coords="363,109,450,136"/>
+<area shape="rect" id="node9" href="$gveditor__basefncl_8h.html" title="Заголовочный файл с основными константами приложения " alt="" coords="370,259,521,285"/>
+<area shape="rect" id="node15" href="$gveditor__controller_8h.html" title="Заголовочный файл реализации класса Контроллера приложения " alt="" coords="691,184,847,211"/>
+<area shape="rect" id="node10" href="$gveditor__coord2d_8h.html" title="Реализация класса coord2d. " alt="" coords="261,333,408,360"/>
+<area shape="rect" id="node17" href="$gveditor__igui_8h.html" title="Реализация интерфейсного класса igui. " alt="" coords="587,259,706,285"/>
+<area shape="rect" id="node18" href="$gveditor__iobj_8h.html" title="gveditor_iobj.h" alt="" coords="798,333,917,360"/>
+<area shape="rect" id="node20" href="$gveditor__doc_8h.html" title="gveditor_doc.h" alt="" coords="947,259,1066,285"/>
+</map>
